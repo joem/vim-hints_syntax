@@ -6,7 +6,7 @@
 " USAGE:
 "   Unless you set up a particular file extension for your hints file, I
 "   recommend adding the following line somewhere in your hints file:
-"     /////   vim: set ft=jwmhint:
+"     /////   vim: set ft=jwmhints:
 
 " NOTES:
 "   I'm pretty certain some of these matches could be done better, but they
@@ -27,5 +27,5 @@ hi def link hintCommentL    Comment
 hi def link hintDescription Type
 hi def link hintTodo        Todo
 
-let b:current_syntax = "jwmhint"
+let b:current_syntax = "jwmhints"
 
